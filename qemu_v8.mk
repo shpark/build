@@ -2,6 +2,7 @@ SPMC_AT_EL=2
 TF_A_DEBUG=1
 TF_A_LOGLVL = 40
 QEMU_SMP=2
+QEMU_KERNEL_BOOTARGS=nokaslr
 MEMTAG=y
 
 ################################################################################
