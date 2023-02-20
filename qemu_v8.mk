@@ -4,6 +4,7 @@ TF_A_LOGLVL = 40
 QEMU_SMP=2
 QEMU_KERNEL_BOOTARGS=nokaslr
 MEMTAG=y
+PAUTH=y
 
 ################################################################################
 # Following variables defines how the NS_USER (Non Secure User - Client
