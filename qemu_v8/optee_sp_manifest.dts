@@ -32,6 +32,8 @@
 	/* Boot protocol */
 	gp-register-num = <0x0>;
 
+	mem-size = <0xd00000>;
+
 	boot-info: {
 		compatible = "arm,ffa-manifest-boot-info";
 		ffa_manifest;
